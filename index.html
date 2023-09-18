@@ -1,0 +1,271 @@
+<!doctype html>
+<html class="no-js" lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Software E/S - Senaspédia, a enciclopédia livre</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" type="image/x-icon" href="img/favicon.png">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
+    </head>
+    <body>
+		<div class="wrapAll clearfix">
+			<div class="sidebar">
+				<div class="logo">
+					<a href="https://www.sp.senai.br/" target="_blank"><img src='img/logo.png' alt="logo"></a>
+				</div>
+				<div class="navigation">
+					<ul>
+						<li><a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal">Pagina principal</a></li>
+						<li><a href="https://pt.wikipedia.org/wiki/Portal:Conte%C3%BAdo_destacado">Conteúdo destacado</a></li>
+					</ul>
+					<h3>Interação</h3>
+					<ul>
+						<li><a href="https://pt.wikipedia.org/wiki/Ajuda:P%C3%A1gina_principal">Ajuda</a></li>
+						<li><a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Sobre_a_Wikip%C3%A9dia">Sobre</a></li>
+						<li><a href="https://pt.wikipedia.org/wiki/Portal:%C3%8Dndice">Portal</a></li>
+						<li><a href="https://meutudo.com.br/blog/como-transferir-pelo-pix/" target="_blank">Donativos</a></li>
+				</div>
+
+			
+			</div>
+			<div class="mainsection">
+				<div class="headerLinks">
+					<!-- <span class="user">Not logged in</span> <a href="#">Talk</a> <a href="#">Contributions</a> -->
+					<a href="https://pt.wikipedia.org/w/index.php?title=Especial:Criar_conta">Criar uma conta</a> <a href="https://pt.wikipedia.org/w/index.php?title=Especial:Entrar">Entrar</a>
+				</div>
+				<div class="tabs clearfix">
+					<div class="tabsLeft">
+						<ul>
+							<li><a href="https://senaspedia.netlify.app" class="active">Artigo</a></li>
+							<li><a href="#" title="Eu não quero criar uma pagina pra discussão" >Discussão</a></li>					
+						</ul>
+					</div>
+					<div id="simpleSearch">
+						<input type="text" name="searchInput" id="searchInput" placeholder="Pesquisar na Senaspédia" size="12" />
+						<div id="submitSearch"></div>
+					</div>
+					<div class="tabsRight">
+						<ul>
+							<li><a href="#" class="active">Ler</a></li>
+							<li><a href="#" title="Só eu posso editar :)">Editar</a></li>						
+							<li><a href="#" title="Já tava ótimo na primeira tentativa então não tem histórico 😌☕">Ver histórico</a></li>						
+						</ul>
+					</div>
+				
+				</div>
+				<div class="article">
+					<h1>Software E/S</h1>
+					<p class="siteSub">Origem: Senaspédia, a enciclopédia livre.</p>
+					<p class="roleNote">Nota: Esta é uma pesquisa simples sobre a arquitetura dos softwares de entrada e saída, se procura por mais informações, vai fazer a pesquisa você :)</p>
+
+					<div class="articleRight">
+						<div class="articleRightInner">
+							<img src="img/Dispositivo-entrada-saida.jpg" alt="Um computador conectado a vários dispositivos periféricos" id="periferico"/>
+						</div>
+						Um computador conectado a vários dispositivos periféricos
+					</div>
+					<p><strong>Softwares de Entrada/Saída</strong> (ou <strong>Softwares E/S</strong>, em inglês: Input/output, sigla I/O Softwares) é responsável por oferecer acesso aos dispositivos de entrada/saída às aplicações e, em consequência, aos usuários do sistema, provendo acesso eficiente, rápido e confiável a um conjunto de periféricos com características diversas de comportamento, velocidade de transferência, volume de dados produzidos/consumidos e diferentes interfaces de <a href="https://pt.wikipedia.org/wiki/Hardware">hardware.</a></p>
+					<div class="contentsPanel">
+						<div class="contentsHeader">Conteúdo</div>
+						<ul>
+							<li>
+								<span>1</span><a href="https://senaspedia.netlify.app/Camadas">Camadas</a>
+								<ul>
+									<li><span>1.1</span><a href="https://senaspedia.netlify.app/Dispositivos_físicos">Dispositivos físicos </a> </li>
+									<li><span>1.2</span><a href="https://senaspedia.netlify.app/Controladores">Controladores </a> </li>
+									<li><span>1.3</span><a href="https://senaspedia.netlify.app/Interface_de_dispositivo_genérica">Interface de dispositivo genérica </a></li>
+									<li><span>1.4</span><a href="https://senaspedia.netlify.app/Sistemas_de_arquivos_e_protocolos_de_rede">Sistemas de arquivos e protocolos de rede </a></li>							
+									<li><span>1.5</span><a href="https://senaspedia.netlify.app/Controladores_de_DMA">Controladores de DMA </a></li>							
+									<li><span>1.6</span><a href="https://senaspedia.netlify.app/Chamada_de_sistema">Chamada de sistema </a></li>
+									<li><span>1.7</span><a href="https://senaspedia.netlify.app/Drivers_de_dispositivo">Drivers de dispositivo </a></li>							
+								</ul>
+							</li>
+							<li><span>2</span><a href="https://senaspedia.netlify.app/Bibliografia">Bibliografia</a></li>
+						</ul>
+					</div>
+					<h2>Estrutura dos softwares em camadas</h2>
+					<div class="articleRight">
+						<div class="articleRightInner">
+							<img src="img/camadas do software.JPG" alt="Estrutura dos softwares de entrada e saída" id="camada"/>
+						</div>
+						Estrutura dos softwares de entrada e saída</a>
+					</div>
+					<p>Para simplificar o uso e a gerência dos dispositivos de entrada/saída, o código do <a href="https://pt.wikipedia.org/wiki/Sistema_operativo">sistema operacional</a> é estruturado em camadas, que levam da interação direta com o hardware às interfaces de acesso abstratas e genéricas oferecidas às aplicações, como arquivos e sockets de rede, organizadas na ordem:</p>
+					<div class="espaco">
+						<p>• Bibliotecas ao nível do usuário - Proporcionam uma interface simples ao programa do usuário para efetuar a entrada e a saída.</p>
+						<p>• Módulos ao nível do <a href="https://pt.wikipedia.org/wiki/N%C3%BAcleo_(sistema_operacional)">kernel</a> - Permite que o driver do dispositivo interaja com o controlador do dispositivo e com os módulos de E/S independentes do dispositivo utilizados pelos drivers do dispositivo.</p>
+						<p>• Hardware - Esta camada inclui o hardware real e o controlador de hardware que interage com os drivers do dispositivo e dá vida ao hardware.</p>
+					</div>
+					<h3>Dispositivos físicos</h3>
+					<p><a href="https://pt.wikipedia.org/wiki/Perif%C3%A9rico">Dispositivo Periféricos</a> (Peripheral Device), ou simplesmente Periférico, é um dispositivo externo auxiliar (ou acessório) usado para enviar ou receber informações do computador ligado ao processador</p>
+					<p>Existem três categorias de dispositivos periféricos, com base no seu relacionamento com o computador:</p>
+					<div class="espaco">
+						<p>1. um dispositivo de entrada envia dados ou instruções para o computador, como mouse, teclado, scanner</p>
+						<p>2. um dispositivo de saída fornece dados de saída do computador, como monitor, projetor, impressora.</p>
+						<p>3. um dispositivo de entrada/saída executa simultaneamente as funções de entrada e saída, como um dispositivo de armazenamento de dados do computador.</p>
+					</div>
+					<h3>Controladores</h3>
+					<div class="articleRight">
+						<div class="articleRightInner">
+							<img src="img/89133_index_gg.jpg" alt="Placa de rede Ethernet" id="placa"/>
+						</div>
+						Placa de rede Ethernet</a>
+					</div>
+					<p><a href="https://pt.wikipedia.org/wiki/Controlador_(inform%C3%A1tica)">Controladores</a> (Controllers) são um dispositivo de hardware (como placas, chips, etc) ou um programa de software que gere ou dirige o fluxo de dados entre duas entidades. Ele é o que, através de um conector (como cabos USB, cabos Ethernet, etc), conecta o periférico ao processador.</p>
+					<p>Exemplos de controladores são:
+					<div class="espaco">
+						<p>• <a href="https://pt.wikipedia.org/wiki/Serial_ATA">SATA</a></p>
+						<p>• <a href="https://pt.wikipedia.org/wiki/ATA">ATAPI</a></p>
+						<p>• <a href="https://pt.wikipedia.org/wiki/Placa_de_rede">Placas de rede</a></p>
+					</div>
+					<h3>Interface de dispositivo genérica</h3>
+					<p>A Interface de Dispositivo (Device Interface) é uma ligação simbólica a um dispositivo <a href="https://pt.wikipedia.org/wiki/Plug_and_Play">Plug and Play</a> (PnP) que uma aplicação pode utilizar para acessar o dispositivo. Essas aplicações são o que é conhecido como "nível do usúario", são elas que fornecem uma interface mais rica e simplificada para acessar à funcionalidade do kernel ou interagir com os drivers dos dispositivos. Exemplos dessas aplicações são as <a href="https://pt.wikipedia.org/wiki/Interface_de_linha_de_comandos">linhas de comando</a> em DOS e Unix, e as <a href="https://pt.wikipedia.org/wiki/Interface_gr%C3%A1fica_do_utilizador">interfaces gráficas</a> em Windows, Mac e Linux.</p>
+					<p>A Interface de Dispositivo Genérica (Generic Device Interface) é uma camada de código, cuja finalidade é construir uma visão genérica de dispositivos similares, para que o restante do sistema operacional não precise ter consciência das peculiaridades de cada dispositivo, mas possa tratá-los por famílias ou classes, como dispositivos de armazenamento, interfaces de rede, de vídeo, etc.</p>
+					<div class="articleRight">
+						<div class="articleRightInner">
+							<img src="img/Captura de tela 2023-09-02 110955.png" alt="Interface uniformizada para classes de dispositivos" id="uniforme"/>
+						</div>
+						Interface uniformizada para classes de dispositivos</a>
+					</div>
+					<h3>Sistemas de arquivos e protocolos de rede</h3>
+					<p> Sistemas de arquivo (File Systems/Filesystem) são responsáveis por organizar arquivos e diretórios, por exemplo:</p>
+					<div class="espaco">	
+						<p>• <a href="https://pt.wikipedia.org/wiki/Extended_file_system">EXT</a>(Linux)</p>
+						<p>• <a href="https://pt.wikipedia.org/wiki/File_Allocation_Table">FAT</a>(MS-DOS)</p>
+						<p>• <a href="https://pt.wikipedia.org/wiki/NTFS">NTFS</a>(Windows)</p>
+					</div>
+					<p>Protocolos de rede (Network Protocols) é uma convenção que possibilita uma conexão, comunicação, transferência de dados entre dois computadores, além de dar acesso à internet, por exemplo:</p>
+					<div class="articleRight">
+						<div class="articleRightInner">
+							<img src="img/NeXTcube_motherboard.jpg" alt="Placa-mãe de um computador NeXTcube" id="dma"/>
+						</div>
+						<p id="dmatexto1"> <a href="https://pt.wikipedia.org/wiki/Placa-m%C3%A3e">Placa-mãe</a> de um computador <a href ="https://en.m.wikipedia.org/wiki/NeXTcube">NeXTcube.</a></p><p id="dmatexto2"> Os dois grandes <a href="https://pt.wikipedia.org/wiki/Circuito_integrado">circuitos integrados</a> abaixo</p><p id="dmatexto3">do centro da imagem são o controlador DMA </p>
+					</div>
+					<div class="espaco">
+						<p>• <a href="https://pt.wikipedia.org/wiki/TCP/IP">TCP/IP</a></p>
+						<p>• <a href="https://pt.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a></p>
+						<p>• <a href="https://pt.wikipedia.org/wiki/Protocolo_de_Transfer%C3%AAncia_de_Arquivos">FTP</a></p>
+						<p>• <a href="https://pt.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol">DHCP</a></p>
+					</div>
+					<h3>Controladores de DMA</h3>
+					<p><a href="https://pt.wikipedia.org/wiki/Acesso_direto_%C3%A0_mem%C3%B3ria">Acesso direto à memória</a>, conhecido como DMA (Direct Memory Access) é um método de transferência de dados em que, diferente do obsoleto <a href="https://pt.wikipedia.org/wiki/Programmed_Input/Output">PIO</a>, o dispositivo periférico pode diretamente acessar a memória do sistema sem usar o processador.</p>
+					<p>O controlador DMA é um componente de hardware especializado para fazer essa transferência de dados, por exemplo, se um computador quer mandar dados da sua memória para uma impressora, ele solicita um pedido de transferência DMA para o controlador DMA da impressora.</p>
+					<h3>Chamada de sistema</h3>
+					<p><a href="https://pt.wikipedia.org/wiki/Chamada_de_sistema">Chamadas de Sistema</a> (Syscalls) É o mecanismo pelo qual um programa solicita um serviço do <a href="https://pt.wikipedia.org/wiki/N%C3%BAcleo_(sistema_operacional)">núcleo</a> do sistema operacional sobre o qual ele está sendo executado. Isto pode incluir serviços relacionados ao hardware (por exemplo, acessar uma <a href="https://pt.wikipedia.org/wiki/Unidade_de_disco_r%C3%ADgido">unidade de disco rígido</a>), criação e execução de novos processos e comunicação com serviços do núcleo de maneira integral como <a href="https://pt.wikipedia.org/wiki/Escalonamento_de_processos">escalonamento do processador.</a></p>
+					<div class="articleRight">
+						<div class="articleRightInner">
+							<img src="img/driver de dispositivo.png" alt="Visão geral de um driver de dispositivo" id="driver"/>
+						</div>
+					Visão geral de um driver de dispositivo
+					</div>
+					<p>Por exemplo, no Windows, para fazer uma chamada de sistema você entraria em uma API de programação em C/C++ como Visual C++ ou WinAPI (Principais APIs da Microsoft para Windows), e rodaria lá um código como CreateFile() para criar um arquivo no sistema, ou SetTimer() para criar um temporizador com o valor de tempo limite especificado, entre outros.</p>
+					<h3>Drivers de dispositivo</h3>
+					<p><a href="https://pt.wikipedia.org/wiki/Driver_de_dispositivo">Drivers</a> são componentes de código que interagem diretamente com cada controlador, para realizar as operações de entrada/saída, receber as requisições de interrupção e fazer o gerenciamento do dispositivo correspondente. Dentro de um mesmo grupo de dispositivos similares, como as placas de rede, há centenas de modelos de diferentes fabricantes, com interfaces distintas. Para cada dispositivo é então necessário construir um driver específico.</p>
+					<p>Essas interrupções são feitas por Interruptores que, em suma, são basicamente uma tomada para os drivers, que os habilitam ou desabilitam, representados por um hexadecimal.</p> 
+					<p>Internamente, um driver consiste de um conjunto de funções que são ativadas pelo núcleo do sistema operacional conforme necessário. Exemplos dessas funções são:</p>
+					<div class="espaco">
+						<p>• Funções de entrada/saída: Responsáveis pela transferência de dados entre o dispositivo e o sistema operacional; essas funções recebem e enviam dados de acordo com a classe dos dispositivo: caracteres (bytes), blocos de tamanho fixo (discos), blocos de tamanho variável (pacotes de rede) ou áreas de memória compartilhadas entre o dispositivo e a CPU (imagens/vídeo e outros).</p>
+						<div class="articleRight">
+							<div class="articleRightInner">
+								<img src="img/erro no driver.png" alt="Exemplo de um erro no driver, indicado pelo triângulo de advertência" id="erro"/>
+							</div>
+						Exemplo de um erro no driver, indicado pelo triângulo de advertência
+						</div>
+						<p>• Funções de gerência: Responsáveis pela gestão do dispositivo e do próprio driver. Além de funções para coordenar a inicialização e finalização do driver e do dispositivo, geralmente são fornecidas funções para configurar o dispositivo, para desligar ou colocar em espera o dispositivo quando este não for usado, e para tratar erros no dispositivo.</p>
+						<p>• Funções de tratamento de eventos: Estas funções são ativadas quando uma requisição de interrupção é gerada pelo dispositivo. Toda requisição de interrupção gerada pelo dispositivo é encaminhada ao controlador de interrupções do hardware, que a entrega ao núcleo do sistema operacional. No núcleo, um tratador de interrupções (IRq handler) reconhece e identifica a interrupção junto ao controlador e em seguida envia uma notificação de evento a uma função do driver, para o devido tratamento.</p>
+					</div>
+					<p>Cada driver deve interagir com seu respectivos dispositivo de entrada/saída para realizar as operações desejadas, através das portas de seu controlador. Os seguintes métodos são as três estratégias mais frequentemente utilizadas pelos drivers para essa interação:</p>
+					<div class="espaco">
+						<p>• Interação controlada por programa</p>
+						<p>• Interação controlada por eventos</p>
+						<p>• DMA</p>
+					</div>
+					<h2>Referências</h2>
+					<p>1. Maziero, Carlos. Sistemas Operacionais: Conceitos e Mecanismos.  Editora da UFPR, 2019.</p>
+					<p>2. Cruz, Pedro. Sistemas Operacionais: Entrada e Saída. Editora da UFRJ, 2018</p>
+					<p>3. DevMedia. <a href="https://www.devmedia.com.br/como-funcionam-os-dispositivos-de-entrada-e-saida/28275">Como funcionam os dispositivos de entrada e saída</a></p>
+					<p>4. TutorialsPoint. <a href="https://www.tutorialspoint.com/operating_system/os_io_software.htm#">Operating System - I/O Softwares</a></p>
+					<p>5. Microsoft. <a href="https://learn.microsoft.com/pt-br/windows-hardware/drivers/kernel/types-of-windows-drivers/">Tipos de drivers do Windows</a></p>
+					
+					<div class="lavenderBox">
+						<div class="header">
+							<a href="https://pt.wikipedia.org/wiki/Sistema_operativo">Sistema operacional/Sistema operativo</a></div>
+						<div class="subtitle linklist">
+							<a href="https://pt.wikipedia.org/wiki/AmigaOS" title="AmigaOS">AmigaOS</a>
+							<a href="https://pt.wikipedia.org/wiki/Android" title="Android">Android</a>
+							<a href="https://pt.wikipedia.org/wiki/BeOS" title="BeOS">BeOS</a>
+							<a href="https://pt.wikipedia.org/wiki/Berkeley_Software_Distribution" title="Berkeley Software Distribution">BSD</a>
+							<a href="https://pt.wikipedia.org/wiki/Chrome_OS" class="mw-redirect" title="Chrome OS">Chrome OS</a>
+							<a href="https://pt.wikipedia.org/wiki/CP/M" title="CP/M">CP/M</a>
+							<a href="https://pt.wikipedia.org/wiki/DOS" title="DOS">DOS</a>
+							<a href="https://pt.wikipedia.org/wiki/GNU" title="GNU">GNU</a>
+							<a href="https://pt.wikipedia.org/wiki/Haiku_(sistema_operacional)" title="Haiku (sistema operacional)">Haiku</a>
+							<a href="https://pt.wikipedia.org/wiki/IOS" title="IOS">iOS</a>
+							<a href="https://pt.wikipedia.org/wiki/Linux" title="Linux">Linux</a>
+							Macintosh <a href="https://pt.wikipedia.org/wiki/Mac_OS_Classic" title="Mac OS Classic">(Mac OS Classic</a> <a href="https://pt.wikipedia.org/wiki/MacOS" title="MacOS">macOS)</a>
+							<a href="https://pt.wikipedia.org/wiki/MINIX" title="MINIX">MINIX</a>
+							<a href="https://pt.wikipedia.org/w/index.php?title=MorphOS&amp;action=edit&amp;redlink=1" class="new" title="MorphOS (página não existe)">MorphOS</a>
+							<a href="https://pt.wikipedia.org/wiki/NEXTSTEP" title="NEXTSTEP">NEXTSTEP</a>
+							<a href="https://pt.wikipedia.org/wiki/OpenVMS" title="OpenVMS">OpenVMS</a>
+							<a href="https://pt.wikipedia.org/wiki/OS/2" title="OS/2">OS/2</a>
+							<a href="https://pt.wikipedia.org/wiki/QNX" title="QNX">QNX</a>
+							<a href="https://pt.wikipedia.org/wiki/ReactOS" title="ReactOS">ReactOS</a>
+							<a href="https://pt.wikipedia.org/wiki/Solaris_(sistema_operacional)" title="Solaris (sistema operacional)">Solaris</a>
+							<a href="https://pt.wikipedia.org/wiki/Unix" title="Unix">Unix</a>
+							<a href="https://pt.wikipedia.org/wiki/LG_webOS" title="LG webOS">webOS</a>
+							<a href="https://pt.wikipedia.org/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a>
+							<a href="https://pt.wikipedia.org/wiki/Xinu" title="Xinu">Xinu</a>
+							<a href="https://pt.wikipedia.org/wiki/Z/OS" title="Z/OS">z/OS</a>
+						</div>
+						<div class="linklist">
+							<a href="https://pt.wikipedia.org/wiki/Sistema_operativo#Funcionamento">Objetivos do SO </a>
+							<a href="https://pt.wikipedia.org/wiki/Sistema_operativo#Estrutura_em_camada">Estrutura do SO </a>
+							<a href="https://pt.wikipedia.org/wiki/N%C3%BAcleo_(sistema_operacional)">Arquiteturas do SO </a>
+							<a href="https://pt.wikipedia.org/wiki/Multitarefa">Gestão de tarefas </a>
+							<a href="https://pt.wikipedia.org/wiki/Thread_(computa%C3%A7%C3%A3o)">Implementação de tarefas </a>
+							<a href="https://pt.wikipedia.org/wiki/Armazenamento_de_dados_de_computador">Gestão de memória </a>
+							<a href="https://pt.wikipedia.org/wiki/Entrada/sa%C3%ADda">Gestão de entrada e saída </a>
+							<a href="https://pt.wikipedia.org/wiki/Unidade_de_disco_r%C3%ADgido">Discos rígidos </a>
+							<a href="https://pt.wikipedia.org/wiki/Permiss%C3%B5es_de_sistema_de_arquivos">Uso de arquivos </a>
+						</div>
+						
+						<div class="subtitle">Arquitetura de Software de Entrada e Saída</div>
+					</div>
+					
+					<div class="categories">
+						<a href="https://pt.wikipedia.org/wiki/Especial:Categorias">Categorias </a>
+						<a href="https://pt.wikipedia.org/wiki/Categoria:Sistemas_operativos">Sistemas operativos </a>
+						<a href="https://pt.wikipedia.org/wiki/Categoria:Intera%C3%A7%C3%A3o_humano-computador">Interação humano-computador </a>
+						<a href="https://pt.wikipedia.org/wiki/Categoria:Perif%C3%A9ricos_de_computador">Periféricos de computador </a>
+						<a href="https://pt.wikipedia.org/wiki/Categoria:Armazenamento_de_dados"> Armazenamento de dados</a>
+					</div>
+					
+				</div>
+				<div class="pagefooter">
+					Esta página foi editada pela última vez às 10h30min de 18 de setembro de 2023. | Modelo por <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a>
+					<div class="footerlinks">
+						<a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/pt-br">Política de privacidade</a>
+						<a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Sobre_a_Wikip%C3%A9dia">Sobre a Wikipédia</a>
+						<a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:Aviso_geral">Avisos gerais</a>
+						<a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal_Code_of_Conduct">Código de conduta</a>
+						<a href="https://stats.wikimedia.org/#/pt.wikipedia.org">Estatísticas</a>
+						<a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Declaração sobre "cookies"</a>
+						Programadores<a href="https://github.com/Jardel-Monte" title="Jardel">(Jardel /</href=> <a href="https://github.com/ren-angel" title="Daniel">Daniel)</a>
+					</div>
+				</div>
+			
+			
+			</div>		
+		</div>
+		
+		
+        <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="script.js"></script> -->
+
+
+    </body>
+</html>
